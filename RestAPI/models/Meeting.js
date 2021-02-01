@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.set('useFindAndModify', false);
 const Schema = mongoose.Schema;
-//const moment = require('moment-timezone');
-//const dateThailand = moment.tz(Date.now(), "Europre/Vatican");
 
 const userSchema = new Schema({
     room: {

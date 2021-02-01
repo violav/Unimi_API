@@ -8,6 +8,7 @@ httpStatus[exports.BAD_REQUEST = 400] = 'Bad Request';
 httpStatus[exports.UNAUTHORIZED = 401] = 'Unauthorized';
 httpStatus[exports.FORBIDDEN = 403] = 'Forbidden';
 httpStatus[exports.NOT_FOUND = 404] = 'Not Found';
+httpStatus[exports.NOT_ACCEPTABLE = 406] = 'Not Acceptable';
 httpStatus[exports.INTERNAL_SERVER_ERROR = 500] = 'Server Error';
 
 exports.getStatusText = function(statusCode) {

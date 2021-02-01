@@ -34,6 +34,9 @@
     <Content Include="config\production.js" />
     <Content Include="config\test.js" />
     <Content Include="controllers\authController.js" />
+    <Content Include="controllers\logController.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="controllers\meetingController.js">
       <SubType>Code</SubType>
     </Content>
@@ -41,6 +44,9 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="controllers\userController.js" />
+    <Content Include="controllers\userRoomController.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="db.js" />
     <Content Include="docs\all.users.png" />
     <Content Include="docs\auth.me.1.png" />
@@ -49,11 +55,20 @@
     <Content Include="docs\register.png" />
     <Content Include="lib\httpStatus.js" />
     <Content Include="lib\jwtModule.js" />
+    <Content Include="lib\Utils.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="lib\verifyToken.js" />
+    <Content Include="models\Log.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="models\Meeting.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="models\Room.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="models\UserRoom.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="models\User.js" />

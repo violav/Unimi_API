@@ -22,7 +22,8 @@ const userSchema = new Schema({
   password: {
     required: true,
     type: String
-  },
+    },
+    id: { type: String },
 });
 
 

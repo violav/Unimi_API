@@ -11,8 +11,8 @@ router.post('/', function (req, res) {
       password : req.body.password
     },
     function (err, user) {
-      if (err) return res.status(httpStatus.INTERNAL_SERVER_ERROR).send(`Server error: ${err.message}`);
-      res.status(httpStatus.OK).send(user);
+        if (err) return res.status(httpStatus.INTERNAL_SERVER_ERROR).send(`Server error: ${err.message}`);
+            res.status(httpStatus.OK).send(user);
     });
 });
 
